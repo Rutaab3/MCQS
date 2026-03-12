@@ -1,6 +1,6 @@
-[
+window.quizData = [
     {
-        "id": 404,
+        "id": 1,
         "question": "Which theme is the first to fully adopt the block-based approach of the WordPress Website Editor?",
         "options": [
             "Twenty Nineteen",
@@ -11,7 +11,7 @@
         "answer": "Twenty Twenty-Two"
     },
     {
-        "id": 404,
+        "id": 2,
         "question": "Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?",
         "options": [
             "Due to high server resource consumption for minimal content",
@@ -22,7 +22,7 @@
         "answer": "Due to steeper learning curve for non-developers"
     },
     {
-        "id": 404,
+        "id": 3,
         "question": "Why is setting up HTTPS important for a WordPress Web server, and what tool provides a free SSL certificate for local testing?",
         "options": [
             "To increase server speed; Apache",
@@ -33,18 +33,18 @@
         "answer": "To ensure secure data transmission; Let's Encrypt"
     },
     {
-        "id": 404,
+        "id": 4,
         "question": "Which of the following steps is required to install a custom theme via WordPress Admin?",
         "options": [
             "Extract the theme files and place them in the wp-content/themes directory",
             "Use the WordPress Customizer and navigate to the Header section",
-            "Navigate to Appearance → Themes and upload a .zip file of the theme",
+            "Navigate to Appearance \u2192 Themes and upload a .zip file of the theme",
             "Configure the footer widgets under the Footer section in the Customizer"
         ],
-        "answer": "Navigate to Appearance → Themes and upload a .zip file of the theme"
+        "answer": "Navigate to Appearance \u2192 Themes and upload a .zip file of the theme"
     },
     {
-        "id": 404,
+        "id": 5,
         "question": "Which of the following roles allows the user to manage and publish posts, including those of other users?",
         "options": [
             "Administrator",
@@ -55,7 +55,7 @@
         "answer": "Editor"
     },
     {
-        "id": 404,
+        "id": 6,
         "question": "Which of the following command is used to install Apache as a service after downloading it on Windows?",
         "options": [
             "httpd.exe -k install",
@@ -66,7 +66,7 @@
         "answer": "httpd.exe -k install"
     },
     {
-        "id": 404,
+        "id": 7,
         "question": "What is the primary role of themes in a WordPress Website?",
         "options": [
             "To provide plugins",
@@ -77,7 +77,7 @@
         "answer": "To control design and layout"
     },
     {
-        "id": 404,
+        "id": 8,
         "question": "Which element is NOT part of the aesthetic design of a WordPress theme?",
         "options": [
             "Color scheme",
@@ -88,7 +88,7 @@
         "answer": "Widgets"
     },
     {
-        "id": 404,
+        "id": 9,
         "question": "What does the Twenty Twenty-One theme emphasize?",
         "options": [
             "Complex designs",
@@ -99,7 +99,7 @@
         "answer": "Minimalist design"
     },
     {
-        "id": 404,
+        "id": 10,
         "question": "Which of the following features does the Twenty Twenty-Two theme support?",
         "options": [
             "Full Site Editing (FSE)",
@@ -110,7 +110,7 @@
         "answer": "Full Site Editing (FSE)"
     },
     {
-        "id": 404,
+        "id": 11,
         "question": "What type of themes does the WordPress Theme Repository primarily offer?",
         "options": [
             "Premium themes",
@@ -121,7 +121,7 @@
         "answer": "Free themes"
     },
     {
-        "id": 404,
+        "id": 12,
         "question": "Which type of plugin is used to improve a WordPress Website's search engine rankings?",
         "options": [
             "E-commerce Plugins",
@@ -132,7 +132,7 @@
         "answer": "SEO Plugins"
     },
     {
-        "id": 404,
+        "id": 13,
         "question": "Why would a business with complex content requirements prefer Drupal over the more popular WordPress?",
         "options": [
             "Drupal has fewer security updates",
@@ -143,7 +143,7 @@
         "answer": "Drupal provides better scalability and content structuring"
     },
     {
-        "id": 404,
+        "id": 14,
         "question": "In a CMS, which user role typically has the highest level of access and control over the system?",
         "options": [
             "Editor",
@@ -154,7 +154,7 @@
         "answer": "Admin"
     },
     {
-        "id": 404,
+        "id": 15,
         "question": "In phpMyAdmin, which of the following collations is recommended when creating a new WordPress database?",
         "options": [
             "utf8_unicode_ci",
@@ -165,7 +165,7 @@
         "answer": "utf8mb4_unicode_ci"
     },
     {
-        "id": 404,
+        "id": 16,
         "question": "What feature of CMS platforms helps improve search engine visibility?",
         "options": [
             "Content Tags",
@@ -176,7 +176,7 @@
         "answer": "Search Engine Optimization (SEO) Tools"
     },
     {
-        "id": 404,
+        "id": 17,
         "question": "Which of the following services are required to be started in the XAMPP Control Panel to begin working with WordPress?",
         "options": [
             "Apache and PHP",
@@ -187,7 +187,7 @@
         "answer": "Apache and MySQL"
     },
     {
-        "id": 404,
+        "id": 18,
         "question": "Which of the following MySQL versions is suggested for WordPress installation?",
         "options": [
             "MySQL 5.7",
@@ -198,7 +198,7 @@
         "answer": "MySQL 8.0"
     },
     {
-        "id": 404,
+        "id": 19,
         "question": "Which of the following PHP configuration settings is crucial for determining the maximum size of files that can be uploaded via WordPress, as mentioned in the setup instructions?",
         "options": [
             "memory_limit",
@@ -209,7 +209,7 @@
         "answer": "upload_max_filesize"
     },
     {
-        "id": 404,
+        "id": 20,
         "question": "When implementing a CMS, which scenario could lead to security vulnerabilities despite regular software updates?",
         "options": [
             "Using default admin credentials without change",
@@ -220,7 +220,7 @@
         "answer": "Using default admin credentials without change"
     },
     {
-        "id": 404,
+        "id": 21,
         "question": "What type of editor is commonly used in CMS platforms to simplify content creation?",
         "options": [
             "Code Editor",
@@ -231,7 +231,7 @@
         "answer": "What You See Is What You Get (WYSIWYG) Editor"
     },
     {
-        "id": 404,
+        "id": 22,
         "question": "Which CMS platform is known for its high security and extensive configuration options?",
         "options": [
             "WordPress",
@@ -242,7 +242,7 @@
         "answer": "Drupal"
     },
     {
-        "id": 404,
+        "id": 23,
         "question": "How do static methods differ from regular class methods in JavaScript?",
         "options": [
             "They can be accessed without creating an instance of the class",
@@ -253,7 +253,7 @@
         "answer": "They can be accessed without creating an instance of the class"
     },
     {
-        "id": 404,
+        "id": 24,
         "question": "Which of the following statements are true with respect to dynamic import improving performance in JavaScript applications?",
         "options": [
             "a. By loading JavaScript modules only when required and b. By bundling all modules together",
@@ -264,7 +264,7 @@
         "answer": "a. By loading JavaScript modules only when required and c. Useful for large applications"
     },
     {
-        "id": 404,
+        "id": 25,
         "question": "What problems do circular dependencies cause in JavaScript modules?",
         "options": [
             "They create infinite loops and initialization issues",
@@ -275,7 +275,7 @@
         "answer": "They create infinite loops and initialization issues"
     },
     {
-        "id": 404,
+        "id": 26,
         "question": "Why is modularization important in large JavaScript applications?",
         "options": [
             "It helps separate concerns and improve maintainability",
@@ -286,7 +286,7 @@
         "answer": "It helps separate concerns and improve maintainability"
     },
     {
-        "id": 404,
+        "id": 27,
         "question": "Which DDL command is used to restructure the database, table, and database objects?",
         "options": [
             "CREATE",
@@ -297,7 +297,7 @@
         "answer": "ALTER"
     },
     {
-        "id": 404,
+        "id": 28,
         "question": "What is the use of SELECT command in MySQL?",
         "options": [
             "To insert the records into the table",
@@ -308,7 +308,7 @@
         "answer": "To fetch or retrieve records from tables"
     },
     {
-        "id": 404,
+        "id": 29,
         "question": "The ______ is used to select all the rows from the table.",
         "options": [
             "Dollar symbol",
@@ -319,7 +319,7 @@
         "answer": "Asterisk symbol"
     },
     {
-        "id": 404,
+        "id": 30,
         "question": "Which keyword is used to retrieve records by checking the possible values from a given column?",
         "options": [
             "CHECK",
@@ -330,7 +330,7 @@
         "answer": "IN"
     },
     {
-        "id": 404,
+        "id": 31,
         "question": "A clause with a single expression fetches unique values from one column",
         "options": [
             "BETWEEN",
@@ -341,7 +341,7 @@
         "answer": "DISTINCT"
     },
     {
-        "id": 404,
+        "id": 32,
         "question": "Which feature is used to combine and retrieve data from more than one table?",
         "options": [
             "MySQL JOIN",
@@ -352,7 +352,7 @@
         "answer": "MySQL JOIN"
     },
     {
-        "id": 404,
+        "id": 33,
         "question": "What does Dropping a database mean?",
         "options": [
             "Deleting database from the server",
@@ -363,7 +363,7 @@
         "answer": "Deleting database from the server"
     },
     {
-        "id": 404,
+        "id": 34,
         "question": "Which Integer data type is used to store numbers or numeric data?",
         "options": [
             "DATETIME",
@@ -374,7 +374,7 @@
         "answer": "BIGINT"
     },
     {
-        "id": 404,
+        "id": 35,
         "question": "Which of the following are common characteristics to determine data type?",
         "options": [
             "Type of value (fixed or variable) it represents",
@@ -385,7 +385,7 @@
         "answer": "All of these"
     },
     {
-        "id": 404,
+        "id": 36,
         "question": "Which query is used to displays results based on one or more conditions mentioned by the user?",
         "options": [
             "SELECT",
@@ -396,7 +396,7 @@
         "answer": "SELECT"
     },
     {
-        "id": 404,
+        "id": 37,
         "question": "What are the types of Set operators?",
         "options": [
             "Plus, Minus, Intersect",
@@ -407,7 +407,7 @@
         "answer": "Union, Union Al, Minus"
     },
     {
-        "id": 404,
+        "id": 38,
         "question": "Which programming language commonly support working with XML data?",
         "options": [
             "Java",
@@ -418,7 +418,7 @@
         "answer": "Java"
     },
     {
-        "id": 404,
+        "id": 39,
         "question": "How are DTDs commonly created and maintained?",
         "options": [
             "Using specialized DTD editing software.",
@@ -429,7 +429,7 @@
         "answer": "Using basic text editors"
     },
     {
-        "id": 404,
+        "id": 40,
         "question": "Which schema language is still beneficial for straightforward XML documents and continues to be popular?",
         "options": [
             "DTD",
@@ -440,7 +440,7 @@
         "answer": "DTD"
     },
     {
-        "id": 404,
+        "id": 41,
         "question": "What does DTD stand for?",
         "options": [
             "Document Type Definition",
@@ -451,7 +451,7 @@
         "answer": "Document Type Definition"
     },
     {
-        "id": 404,
+        "id": 42,
         "question": "Which type of XML parser loads the complete XML document into memory?",
         "options": [
             "DOM-based XML parser",
@@ -462,7 +462,7 @@
         "answer": "DOM-based XML parser"
     },
     {
-        "id": 404,
+        "id": 43,
         "question": "In which applications is XML validation vital?",
         "options": [
             "Games and multimedia application",
@@ -473,7 +473,7 @@
         "answer": "Data integration, Web services, and configuration files"
     },
     {
-        "id": 404,
+        "id": 44,
         "question": "In an XML schema, what does the xs:sequence element define?",
         "options": [
             "The order of child elements.",
@@ -484,7 +484,7 @@
         "answer": "The order of child elements."
     },
     {
-        "id": 404,
+        "id": 45,
         "question": "What does the Document Prolog in an XML document typically contain?",
         "options": [
             "XML Declaration",
@@ -495,7 +495,7 @@
         "answer": "XML Declaration"
     },
     {
-        "id": 404,
+        "id": 46,
         "question": "When would it be appropriate to use Document Type Definition (DTD) instead of XML Schema (XSD)?",
         "options": [
             "For straightforward XML documents with simple structure.",
@@ -506,7 +506,7 @@
         "answer": "For straightforward XML documents with simple structure."
     },
     {
-        "id": 404,
+        "id": 47,
         "question": "Which of the following services are required to be started in the XAMPP Control Panel to begin working with WordPress?",
         "options": [
             "Apache and PHP",
@@ -517,7 +517,7 @@
         "answer": "Apache and MySQL"
     },
     {
-        "id": 404,
+        "id": 48,
         "question": "Which of the following roles allows the user to manage and publish posts, including those of other users?",
         "options": [
             "Administrator",
@@ -528,7 +528,7 @@
         "answer": "Editor"
     },
     {
-        "id": 404,
+        "id": 49,
         "question": "Which of the following command is used to install Apache as a service after downloading it on Windows?",
         "options": [
             "httpd_exe -k install",
@@ -539,7 +539,7 @@
         "answer": "httpd_exe -k install"
     },
     {
-        "id": 404,
+        "id": 50,
         "question": "Why would a business with complex content requirements prefer Drupal over the more popular WordPress?",
         "options": [
             "Drupal has fewer security updates",
@@ -550,7 +550,7 @@
         "answer": "Drupal provides better scalability and content structuring"
     },
     {
-        "id": 404,
+        "id": 51,
         "question": "In a CMS, which user role typically has the highest level of access and control over the system?",
         "options": [
             "Editor",
@@ -561,7 +561,7 @@
         "answer": "Admin"
     },
     {
-        "id": 404,
+        "id": 52,
         "question": "Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?",
         "options": [
             "Due to high server resource consumption for minimal content",
@@ -572,7 +572,7 @@
         "answer": "Due to steeper learning curve for non-developers"
     },
     {
-        "id": 404,
+        "id": 53,
         "question": "How does the constructor method help in JavaScript classes?",
         "options": [
             "It defines a static method",
@@ -583,7 +583,7 @@
         "answer": "It initializes object properties when a class instance is created"
     },
     {
-        "id": 404,
+        "id": 54,
         "question": "Which of the following best describes the role of 'this' in a JavaScript class?",
         "options": [
             "Refers to the current instance of a class",
@@ -594,7 +594,7 @@
         "answer": "Refers to the current instance of a class"
     },
     {
-        "id": 404,
+        "id": 55,
         "question": "What is the purpose of the getter method in JavaScript classes?",
         "options": [
             "Provides direct write access to properties",
@@ -605,7 +605,7 @@
         "answer": "Retrieves the value of a property without calling it similar to a function"
     },
     {
-        "id": 404,
+        "id": 56,
         "question": "How does extends support inheritance in JavaScript classes?",
         "options": [
             "It allows a class to inherit properties and methods from another class",
@@ -616,7 +616,7 @@
         "answer": "It allows a class to inherit properties and methods from another class"
     },
     {
-        "id": 404,
+        "id": 57,
         "question": "Which JavaScript feature allows quick extraction of values from objects and arrays?",
         "options": [
             "Optional Chaining",
@@ -627,7 +627,7 @@
         "answer": "Destructuring"
     },
     {
-        "id": 404,
+        "id": 58,
         "question": "What does the test() method return when a regular expression finds a match?",
         "options": [
             "A boolean value",
@@ -638,7 +638,7 @@
         "answer": "A boolean value"
     },
     {
-        "id": 404,
+        "id": 59,
         "question": "What does the super keyword do in JavaScript?",
         "options": [
             "Calls the constructor or methods of a parent class",
@@ -649,7 +649,7 @@
         "answer": "Calls the constructor or methods of a parent class"
     },
     {
-        "id": 404,
+        "id": 60,
         "question": "help in organizing codes by grouping requests that handle the codes in a single route and class.",
         "options": [
             "Models",
@@ -660,7 +660,7 @@
         "answer": "Controllers"
     },
     {
-        "id": 404,
+        "id": 61,
         "question": "A is preconfigured using a single line of artisan command.",
         "options": [
             "Single Action Controller",
@@ -671,7 +671,7 @@
         "answer": "Resource Controller"
     },
     {
-        "id": 404,
+        "id": 62,
         "question": "The Update operation is similar to the operation.",
         "options": [
             "Edit",
@@ -682,7 +682,7 @@
         "answer": "Edit"
     },
     {
-        "id": 404,
+        "id": 63,
         "question": "In key-value pairs, the value should contain validating keywords separated by the symbol.",
         "options": [
             "*",
@@ -693,7 +693,7 @@
         "answer": "|"
     },
     {
-        "id": 404,
+        "id": 64,
         "question": "Which of the following validators validates if any value was passed for a column?",
         "options": [
             "between",
@@ -704,7 +704,7 @@
         "answer": "required"
     },
     {
-        "id": 404,
+        "id": 65,
         "question": "are required to use Composer and Homestead on Windows.",
         "options": [
             "Virtual Environment",
@@ -715,7 +715,7 @@
         "answer": "Virtual Environment"
     },
     {
-        "id": 404,
+        "id": 66,
         "question": "Which of the following commands will help to verify that Composer is installed on the computer?",
         "options": [
             "GitBash",
@@ -726,7 +726,7 @@
         "answer": "GitBash"
     },
     {
-        "id": 404,
+        "id": 67,
         "question": "helps in implementing CRUD operations.",
         "options": [
             "Routes",
@@ -737,7 +737,7 @@
         "answer": "Eloquent ORM"
     },
     {
-        "id": 404,
+        "id": 68,
         "question": "refers to the concept of sending records in blocks.",
         "options": [
             "Validation",
@@ -748,7 +748,7 @@
         "answer": "Pagination"
     },
     {
-        "id": 404,
+        "id": 69,
         "question": "A is a case where the attributes of a model are blindly updated.",
         "options": [
             "Attribute",
@@ -759,7 +759,7 @@
         "answer": "Mass Assignment"
     },
     {
-        "id": 404,
+        "id": 70,
         "question": "The basic contents of a Web application are written in the _____.",
         "options": [
             "template engine",
@@ -770,7 +770,7 @@
         "answer": "template engine"
     },
     {
-        "id": 404,
+        "id": 71,
         "question": "The ______ array enables a user to update any value in the same database.",
         "options": [
             "$data",
@@ -781,7 +781,7 @@
         "answer": "$update"
     },
     {
-        "id": 404,
+        "id": 72,
         "question": "The ______ method uses the URI, two arguments, and the closure function that is executed in response to the URI.",
         "options": [
             "put",
@@ -792,7 +792,7 @@
         "answer": "get"
     },
     {
-        "id": 404,
+        "id": 73,
         "question": "Which of the following methods is used to retrieve a specific record?",
         "options": [
             "retrieve()",
@@ -803,7 +803,7 @@
         "answer": "find()"
     },
     {
-        "id": 404,
+        "id": 74,
         "question": "Which of the following BEST describes Chaining?",
         "options": [
             "A collection object has multiple methods that return another collection object.",
@@ -814,7 +814,7 @@
         "answer": "A collection object has multiple methods that return another collection object."
     },
     {
-        "id": 404,
+        "id": 75,
         "question": "Which of the following statements is TRUE? <br>(1) The code folder inside the Homestead directory and the Homestead environment are the same. <br>(2) By default, Laravel has a Route class, which has only one method to handle each type of HTTP request.",
         "options": [
             "Both 1 and 2",
@@ -825,7 +825,7 @@
         "answer": "Only 2"
     },
     {
-        "id": 404,
+        "id": 76,
         "question": "The ______ in Laravel helps in creating tables.",
         "options": [
             "schema builder class",
@@ -836,7 +836,7 @@
         "answer": "schema builder class"
     },
     {
-        "id": 404,
+        "id": 77,
         "question": "In Laravel convention, ______ are the preferred way to create records, not tables.",
         "options": [
             "keys",
@@ -847,7 +847,7 @@
         "answer": "functions"
     },
     {
-        "id": 404,
+        "id": 78,
         "question": "acts as a version control system for a database that includes many tables.",
         "options": [
             "Database",
@@ -858,7 +858,7 @@
         "answer": "Migration"
     },
     {
-        "id": 404,
+        "id": 79,
         "question": "The method is used to create a table.",
         "options": [
             "down",
@@ -869,7 +869,7 @@
         "answer": "up"
     },
     {
-        "id": 404,
+        "id": 80,
         "question": "The Bootstrap CSS framework uses the ______ helper function.",
         "options": [
             "get()",
@@ -880,7 +880,7 @@
         "answer": "asset()"
     },
     {
-        "id": 404,
+        "id": 81,
         "question": "When creating a record, it is necessary to include the ______ keyword array to prevent any malicious attempt.",
         "options": [
             "$fillable",
@@ -891,7 +891,7 @@
         "answer": "$fillable"
     },
     {
-        "id": 404,
+        "id": 82,
         "question": "Which of the following directories includes the Views that will be used to display the final Web page as well as the un-compiled assets related to JavaScript and CSS?",
         "options": [
             "Bootstrap",
@@ -902,7 +902,7 @@
         "answer": "Resources"
     },
     {
-        "id": 404,
+        "id": 83,
         "question": "Which of the following enables the user to add elements to the project that follow the Laravel convention?",
         "options": [
             "Artisan Tool",
@@ -913,7 +913,7 @@
         "answer": "Artisan Tool"
     },
     {
-        "id": 404,
+        "id": 84,
         "question": "The main reason to use the query builder over writing SQL code manually is because",
         "options": [
             "it is rich in features",
@@ -924,7 +924,7 @@
         "answer": "it writes different SQL codes depending on the database being used"
     },
     {
-        "id": 404,
+        "id": 85,
         "question": "Functions that are defined in the model and that replace a long chain with a simple one are called",
         "options": [
             "Model Events",
@@ -935,7 +935,7 @@
         "answer": "Query Scopes"
     },
     {
-        "id": 404,
+        "id": 86,
         "question": "The feature in the MVC design pattern eliminates the need to create new files and multiple pages for a single application.",
         "options": [
             "synchronizing",
@@ -946,7 +946,7 @@
         "answer": "synchronizing"
     },
     {
-        "id": 404,
+        "id": 87,
         "question": "Which of the following terms BEST describes the statement 'Codes can be independent or interchanged based on the requirement?",
         "options": [
             "static",
@@ -957,7 +957,7 @@
         "answer": "Modularity"
     },
     {
-        "id": 404,
+        "id": 88,
         "question": "help in organizing codes by grouping requests that handle the codes in a single route and class.",
         "options": [
             "Models",
@@ -968,7 +968,7 @@
         "answer": "Controllers"
     },
     {
-        "id": 404,
+        "id": 89,
         "question": "A is preconfigured using a single line of artisan command.",
         "options": [
             "Single Action Controller",
@@ -979,7 +979,7 @@
         "answer": "Resource Controller"
     },
     {
-        "id": 404,
+        "id": 90,
         "question": "The Update operation is similar to the operation.",
         "options": [
             "Edit",
@@ -990,7 +990,7 @@
         "answer": "Edit"
     },
     {
-        "id": 404,
+        "id": 91,
         "question": "In key-value pairs, the value should contain validating keywords separated by the symbol.",
         "options": [
             "*",
@@ -1001,7 +1001,7 @@
         "answer": "|"
     },
     {
-        "id": 404,
+        "id": 92,
         "question": "Which of the following validators validates if any value was passed for a column?",
         "options": [
             "between",
@@ -1012,7 +1012,7 @@
         "answer": "required"
     },
     {
-        "id": 404,
+        "id": 93,
         "question": "are required to use Composer and Homestead on Windows.",
         "options": [
             "Virtual Environment",
@@ -1023,7 +1023,7 @@
         "answer": "Virtual Environment"
     },
     {
-        "id": 404,
+        "id": 94,
         "question": "Which of the following commands will help to verify that Composer is installed on the computer?",
         "options": [
             "GitBash",
@@ -1034,7 +1034,7 @@
         "answer": "GitBash"
     },
     {
-        "id": 404,
+        "id": 95,
         "question": "helps in implementing CRUD operations.",
         "options": [
             "Routes",
@@ -1045,7 +1045,7 @@
         "answer": "Eloquent ORM"
     },
     {
-        "id": 404,
+        "id": 96,
         "question": "refers to the concept of sending records in blocks.",
         "options": [
             "Validation",
@@ -1056,7 +1056,7 @@
         "answer": "Pagination"
     },
     {
-        "id": 404,
+        "id": 97,
         "question": "A is a case where the attributes of a model are blindly updated.",
         "options": [
             "Attribute",
@@ -1067,7 +1067,7 @@
         "answer": "Mass Assignment"
     },
     {
-        "id": 404,
+        "id": 98,
         "question": "The basic contents of a Web application are written in the _____.",
         "options": [
             "template engine",
@@ -1078,7 +1078,7 @@
         "answer": "template engine"
     },
     {
-        "id": 404,
+        "id": 99,
         "question": "The ______ array enables a user to update any value in the same database.",
         "options": [
             "$data",
@@ -1089,7 +1089,7 @@
         "answer": "$update"
     },
     {
-        "id": 404,
+        "id": 100,
         "question": "The ______ method uses the URI, two arguments, and the closure function that is executed in response to the URI.",
         "options": [
             "put",
@@ -1100,7 +1100,7 @@
         "answer": "get"
     },
     {
-        "id": 404,
+        "id": 101,
         "question": "Which of the following methods is used to retrieve a specific record?",
         "options": [
             "retrieve()",
@@ -1111,7 +1111,7 @@
         "answer": "find()"
     },
     {
-        "id": 404,
+        "id": 102,
         "question": "Which of the following BEST describes Chaining?",
         "options": [
             "A collection object has multiple methods that return another collection object.",
@@ -1122,7 +1122,7 @@
         "answer": "A collection object has multiple methods that return another collection object."
     },
     {
-        "id": 404,
+        "id": 103,
         "question": "Which of the following statements is TRUE?\n\n(1) The code folder inside the Homestead directory and the Homestead environment are the same.\n(2) By default, Laravel has a Route class, which has only one method to handle each type of HTTP request.",
         "options": [
             "Both 1 and 2",
@@ -1133,7 +1133,7 @@
         "answer": "Only 2"
     },
     {
-        "id": 404,
+        "id": 104,
         "question": "The ______ in Laravel helps in creating tables.",
         "options": [
             "schema builder class",
@@ -1144,7 +1144,7 @@
         "answer": "schema builder class"
     },
     {
-        "id": 404,
+        "id": 105,
         "question": "In Laravel convention, ______ are the preferred way to create records, not tables.",
         "options": [
             "keys",
@@ -1155,7 +1155,7 @@
         "answer": "functions"
     },
     {
-        "id": 404,
+        "id": 106,
         "question": "acts as a version control system for a database that includes many tables.",
         "options": [
             "Database",
@@ -1166,7 +1166,7 @@
         "answer": "Migration"
     },
     {
-        "id": 404,
+        "id": 107,
         "question": "The method is used to create a table.",
         "options": [
             "down",
@@ -1177,7 +1177,7 @@
         "answer": "up"
     },
     {
-        "id": 404,
+        "id": 108,
         "question": "The Bootstrap CSS framework uses the ______ helper function.",
         "options": [
             "get()",
@@ -1188,7 +1188,7 @@
         "answer": "asset()"
     },
     {
-        "id": 404,
+        "id": 109,
         "question": "When creating a record, it is necessary to include the ______ keyword array to prevent any malicious attempt.",
         "options": [
             "$fillable",
@@ -1199,7 +1199,7 @@
         "answer": "$fillable"
     },
     {
-        "id": 404,
+        "id": 110,
         "question": "Which of the following directories includes the Views that will be used to display the final Web page as well as the un-compiled assets related to JavaScript and CSS?",
         "options": [
             "Bootstrap",
@@ -1210,7 +1210,7 @@
         "answer": "Resources"
     },
     {
-        "id": 404,
+        "id": 111,
         "question": "Which of the following enables the user to add elements to the project that follow the Laravel convention?",
         "options": [
             "Artisan Tool",
@@ -1221,7 +1221,7 @@
         "answer": "Artisan Tool"
     },
     {
-        "id": 404,
+        "id": 112,
         "question": "The main reason to use the query builder over writing SQL code manually is because",
         "options": [
             "it is rich in features",
@@ -1232,7 +1232,7 @@
         "answer": "it writes different SQL codes depending on the database being used"
     },
     {
-        "id": 404,
+        "id": 113,
         "question": "Functions that are defined in the model and that replace a long chain with a simple one are called",
         "options": [
             "Model Events",
@@ -1243,7 +1243,7 @@
         "answer": "Query Scopes"
     },
     {
-        "id": 404,
+        "id": 114,
         "question": "The feature in the MVC design pattern eliminates the need to create new files and multiple pages for a single application.",
         "options": [
             "synchronizing",
@@ -1254,7 +1254,7 @@
         "answer": "synchronizing"
     },
     {
-        "id": 404,
+        "id": 115,
         "question": "Which of the following terms BEST describes the statement 'Codes can be independent or interchanged based on the requirement?",
         "options": [
             "static",
@@ -1265,7 +1265,7 @@
         "answer": "Modularity"
     },
     {
-        "id": 404,
+        "id": 116,
         "question": "What is used in places where fluid replication infrastructure is present?",
         "options": [
             "Elastic Replication",
@@ -1276,7 +1276,7 @@
         "answer": "Elastic Replication"
     },
     {
-        "id": 404,
+        "id": 117,
         "question": "What is the process of dividing the rows of a table into separate tables in different locations called?",
         "options": [
             "Portioning",
@@ -1287,7 +1287,7 @@
         "answer": "Partitioning"
     },
     {
-        "id": 404,
+        "id": 118,
         "question": "_____ partitioning splits the table into multiple tables with only few columns from the original table.",
         "options": [
             "Straight",
@@ -1298,7 +1298,7 @@
         "answer": "Vertical"
     },
     {
-        "id": 404,
+        "id": 119,
         "question": "_____ refers to the performance increase of any given system.",
         "options": [
             "Excellence",
@@ -1309,7 +1309,7 @@
         "answer": "Optimization"
     },
     {
-        "id": 404,
+        "id": 120,
         "question": "What is the time taken for the database to respond to any query referred to as?",
         "options": [
             "Employment Time",
@@ -1320,7 +1320,7 @@
         "answer": "Execution Time"
     },
     {
-        "id": 404,
+        "id": 121,
         "question": "_____ in DBMS is the process of improving the performance of data storage resources.",
         "options": [
             "Storage management",
@@ -1331,7 +1331,7 @@
         "answer": "Storage management"
     },
     {
-        "id": 404,
+        "id": 122,
         "question": "In _____ partitioning, data distribution is done on the basis of predefined number of partitions.",
         "options": [
             "List",
@@ -1342,7 +1342,7 @@
         "answer": "Hash"
     },
     {
-        "id": 404,
+        "id": 123,
         "question": "_____ mentions that partitions must not be scanned if there are no matching values.",
         "options": [
             "Partition pruning",
@@ -1353,7 +1353,7 @@
         "answer": "Partition pruning"
     },
     {
-        "id": 404,
+        "id": 124,
         "question": "Which MySQL Database backup is created by copying the database files?",
         "options": [
             "Logical backup by using mysqldump",
@@ -1364,7 +1364,7 @@
         "answer": "Physical backup"
     },
     {
-        "id": 404,
+        "id": 125,
         "question": "Arrange the following steps in correct order: <br>1. Slaves connect to the master, <br>2. Operations are copied to binary log, <br>3. Slave applies binary log to real log, <br>4. Slave retrieves master's binary log",
         "options": [
             "3, 4, 2, and 1",
@@ -1375,7 +1375,7 @@
         "answer": "2, 1, 4, and 3"
     },
     {
-        "id": 404,
+        "id": 126,
         "question": "Which of the following are the uses of partitioning?",
         "options": [
             "Improves quality of data",
@@ -1386,7 +1386,7 @@
         "answer": "Provides a mechanism for dividing data by usage pattern"
     },
     {
-        "id": 404,
+        "id": 127,
         "question": "When subqueries are used along with JOINs, the subquery is written using the _____ clause.",
         "options": [
             "SET",
@@ -1397,7 +1397,7 @@
         "answer": "FROM"
     },
     {
-        "id": 404,
+        "id": 128,
         "question": "Which is the default JOIN clause?",
         "options": [
             "CROSS JOIN",
@@ -1408,7 +1408,7 @@
         "answer": "INNER JOIN"
     },
     {
-        "id": 404,
+        "id": 129,
         "question": "A _____ is a nested query inside another query.",
         "options": [
             "Setquery",
@@ -1419,7 +1419,7 @@
         "answer": "Subquery"
     },
     {
-        "id": 404,
+        "id": 130,
         "question": "Which single row operator checks values less than the values returned by the subquery?",
         "options": [
             "Less Than (<)",
@@ -1430,7 +1430,7 @@
         "answer": "Less Than (<)"
     },
     {
-        "id": 404,
+        "id": 131,
         "question": "Which multiple row operator returns the values less than the highest value of the list returned by the subquery?",
         "options": [
             ">ALL",
@@ -1441,7 +1441,7 @@
         "answer": "<ANY"
     },
     {
-        "id": 404,
+        "id": 132,
         "question": "When a _____ clause is used, it returns a Cartesian product of the two tables.",
         "options": [
             "UPDATE JOIN",
@@ -1452,7 +1452,7 @@
         "answer": "NATURAL JOIN"
     },
     {
-        "id": 404,
+        "id": 133,
         "question": "The _____ clause compares the values returned by the subquery with the records in the table.",
         "options": [
             "WHERE",
@@ -1463,7 +1463,7 @@
         "answer": "WHERE"
     },
     {
-        "id": 404,
+        "id": 134,
         "question": "What are the guidelines to use subqueries?",
         "options": [
             "Used when the user requires one query",
@@ -1474,7 +1474,7 @@
         "answer": "None of these"
     },
     {
-        "id": 404,
+        "id": 135,
         "question": "What are the most used keywords in subquery?",
         "options": [
             "IN, NOT IN, EXISTS",
@@ -1485,7 +1485,7 @@
         "answer": "IN, NOT IN, EXISTS"
     },
     {
-        "id": 404,
+        "id": 136,
         "question": "____ are used as a block of SQL statements in the MySQL server for re-use.",
         "options": [
             "Replacement",
@@ -1496,7 +1496,7 @@
         "answer": "Stored Routines"
     },
     {
-        "id": 404,
+        "id": 137,
         "question": "____ in MySQL can be defined as a program that performs independent operations.",
         "options": [
             "Functions",
@@ -1507,7 +1507,7 @@
         "answer": "Functions"
     },
     {
-        "id": 404,
+        "id": 138,
         "question": "Which Modifier is used with GROUP BY clause and provides summary output by including extra rows that represent super-aggregate summary?",
         "options": [
             "ALTER TABLE",
@@ -1518,7 +1518,7 @@
         "answer": "ROLLUP"
     },
     {
-        "id": 404,
+        "id": 139,
         "question": "_____ functions in SQL are the numeric functions that are used to perform calculations by taking input values as arguments.",
         "options": [
             "Numerical",
@@ -1529,7 +1529,7 @@
         "answer": "Mathematical"
     },
     {
-        "id": 404,
+        "id": 140,
         "question": "The _____ FUNCTION command is used to remove a function (if it exists) from the database.",
         "options": [
             "DISC",
@@ -1540,7 +1540,7 @@
         "answer": "DROP"
     },
     {
-        "id": 404,
+        "id": 141,
         "question": "_____ clause is used in SELECT statements to define filter conditions for a group of rows.",
         "options": [
             "HIDDEN",
@@ -1551,7 +1551,7 @@
         "answer": "HAVING"
     },
     {
-        "id": 404,
+        "id": 142,
         "question": "The _____ clause is used to sort the records in ascending order or descending order.",
         "options": [
             "ORDER BY",
@@ -1562,7 +1562,7 @@
         "answer": "ORDER BY"
     },
     {
-        "id": 404,
+        "id": 143,
         "question": "In MySQL, a _____ is a set of logical statements resulting in a single operation.",
         "options": [
             "Transformation",
@@ -1573,7 +1573,7 @@
         "answer": "Transaction"
     },
     {
-        "id": 404,
+        "id": 144,
         "question": "A transaction has four properties, known as _____ properties.",
         "options": [
             "TRUE",
@@ -1584,7 +1584,7 @@
         "answer": "ACID"
     },
     {
-        "id": 404,
+        "id": 145,
         "question": "Which clause is used for the purpose of categorizing all rows that have the same values?",
         "options": [
             "GROUP TO",
@@ -1595,7 +1595,7 @@
         "answer": "GROUP BY"
     },
     {
-        "id": 404,
+        "id": 146,
         "question": "The GROUP BY clause with the _____ function is used to show the total number of orders received grouped datewise.",
         "options": [
             "MIN",
@@ -1606,7 +1606,7 @@
         "answer": "SUM"
     },
     {
-        "id": 404,
+        "id": 147,
         "question": "Arrange the following steps to create a database using mysqladmin: 1. Type show databases command to check whether the database is created or not. 2. Once the first step is completed, type mysql -u root -p in the command prompt to connect with MySQL. 3. Navigate to the bin folder of MySQL Server using the command prompt and type the command.",
         "options": [
             "1, 2 and 3",
@@ -1617,7 +1617,7 @@
         "answer": "3, 2 and 1"
     },
     {
-        "id": 404,
+        "id": 148,
         "question": "_____ automatically generates unique records and assigns consecutive numbers such as 1, 2, 3... or 100,101,102... automatically to a field.",
         "options": [
             "VALUE_RECORDS",
@@ -1628,7 +1628,7 @@
         "answer": "AUTO_INCREMENT"
     },
     {
-        "id": 404,
+        "id": 149,
         "question": "Which of these is the process of analyzing data objects and their relation?",
         "options": [
             "Database schema",
@@ -1639,7 +1639,7 @@
         "answer": "Data Modelling"
     },
     {
-        "id": 404,
+        "id": 150,
         "question": "The Group Function can be combined with functions such as max(), count(), min(), and so on, which are known as ______.",
         "options": [
             "Filter functions",
@@ -1650,7 +1650,7 @@
         "answer": "Aggregate functions"
     },
     {
-        "id": 404,
+        "id": 151,
         "question": "_____ partitioning splits the table into multiple tables with only few columns from the original table.",
         "options": [
             "Straight",
@@ -1661,7 +1661,7 @@
         "answer": "Vertical"
     },
     {
-        "id": 404,
+        "id": 152,
         "question": "_____ refers to the performance increase of any given system.",
         "options": [
             "Excellence",
@@ -1672,7 +1672,7 @@
         "answer": "Optimization"
     },
     {
-        "id": 404,
+        "id": 153,
         "question": "What is the time taken for the database to respond to any query referred to as?",
         "options": [
             "Employment Time",
@@ -1683,7 +1683,7 @@
         "answer": "Execution Time"
     },
     {
-        "id": 404,
+        "id": 154,
         "question": "_____ in DBMS is the process of improving the performance of data storage resources.",
         "options": [
             "Storage management",
@@ -1694,7 +1694,7 @@
         "answer": "Storage management"
     },
     {
-        "id": 404,
+        "id": 155,
         "question": "_____ allows the central processing unit of the server to access the data without using other devices?",
         "options": [
             "Tertiary storage",
@@ -1705,7 +1705,7 @@
         "answer": "Primary storage or memory"
     },
     {
-        "id": 404,
+        "id": 156,
         "question": "_____ returns the length of string input by the user.",
         "options": [
             "CHAR_LENGTH(str)",
@@ -1716,7 +1716,7 @@
         "answer": "CHAR_LENGTH(str)"
     },
     {
-        "id": 404,
+        "id": 157,
         "question": "A _____ clause with a single expression fetches unique values from one column.",
         "options": [
             "BETWEEN",
@@ -1727,7 +1727,7 @@
         "answer": "DISTINCT"
     },
     {
-        "id": 404,
+        "id": 158,
         "question": "Which feature is used to combine and retrieve data from more than one table?",
         "options": [
             "MySQL JOIN",
@@ -1738,7 +1738,7 @@
         "answer": "MySQL JOIN"
     },
     {
-        "id": 404,
+        "id": 159,
         "question": "What does Dropping a database mean?",
         "options": [
             "Deleting database from the server",
@@ -1749,7 +1749,7 @@
         "answer": "Deleting database from the server"
     },
     {
-        "id": 404,
+        "id": 160,
         "question": "Which Integer data type is used to store numbers or numeric data?",
         "options": [
             "DATETIME",
@@ -1760,7 +1760,7 @@
         "answer": "BIGINT"
     },
     {
-        "id": 404,
+        "id": 161,
         "question": "Which query is used to display results based on one or more conditions mentioned by the user?",
         "options": [
             "SELECT",
@@ -1771,7 +1771,7 @@
         "answer": "SELECT"
     },
     {
-        "id": 404,
+        "id": 162,
         "question": "What are the types of Set operators?",
         "options": [
             "Plus, Minus, Intersect",
@@ -1782,7 +1782,7 @@
         "answer": "Union, Union All, Minus"
     },
     {
-        "id": 404,
+        "id": 163,
         "question": "_____ operator is used when two tables are combined and only those rows must be returned from the first query/statement which do not match the rows from the second.",
         "options": [
             "UPDATE ALL",
@@ -1793,7 +1793,7 @@
         "answer": "EXCEPT"
     },
     {
-        "id": 404,
+        "id": 164,
         "question": "Which DDL command is used to restructure the database, table, and database objects?",
         "options": [
             "CREATE",
@@ -1804,7 +1804,7 @@
         "answer": "ALTER"
     },
     {
-        "id": 404,
+        "id": 165,
         "question": "What is the use of SELECT command in MySQL?",
         "options": [
             "To insert the records into the table",
@@ -1815,7 +1815,7 @@
         "answer": "To fetch or retrieve records from tables"
     },
     {
-        "id": 404,
+        "id": 166,
         "question": "The ____ is used to select all the rows from the table.",
         "options": [
             "Asterisk symbol",
@@ -1826,7 +1826,7 @@
         "answer": "Asterisk symbol"
     },
     {
-        "id": 404,
+        "id": 167,
         "question": "Which keyword is used to retrieve records by checking the possible values from a given column?",
         "options": [
             "CHECK",
@@ -1837,7 +1837,7 @@
         "answer": "IN"
     },
     {
-        "id": 404,
+        "id": 168,
         "question": "PHP has no support for Unicode, as it only supports a ______ character set.",
         "options": [
             "128",
@@ -1848,7 +1848,7 @@
         "answer": "256"
     },
     {
-        "id": 404,
+        "id": 169,
         "question": "Multiple parameters in a function are separated by a ______.",
         "options": [
             "Semicolon",
@@ -1859,7 +1859,7 @@
         "answer": "Comma"
     },
     {
-        "id": 404,
+        "id": 170,
         "question": "Which of these Escape Sequences in PHP is replaced by the carriage-return character?",
         "options": [
             "\\t",
@@ -1870,7 +1870,7 @@
         "answer": "\\r"
     },
     {
-        "id": 404,
+        "id": 171,
         "question": "What are named and indexed collections of other values?",
         "options": [
             "Objects",
@@ -1881,7 +1881,7 @@
         "answer": "Arrays"
     },
     {
-        "id": 404,
+        "id": 172,
         "question": "Which of the following are essential criteria to store data as an integer data type?",
         "options": [
             "Must be positive only",
@@ -1892,7 +1892,7 @@
         "answer": "Cannot have decimal points"
     },
     {
-        "id": 404,
+        "id": 173,
         "question": "Which of these are the functions supported in PHP, to check if the type of a variable is an integer?",
         "options": [
             "is_int(), is_long(), is_integer()",
@@ -1903,7 +1903,7 @@
         "answer": "is_int(), is_long(), is_integer()"
     },
     {
-        "id": 404,
+        "id": 174,
         "question": "What are used for storing data such as numeric and character values, strings, and memory addresses at runtime?",
         "options": [
             "Arrays",
@@ -1914,7 +1914,7 @@
         "answer": "Variables"
     },
     {
-        "id": 404,
+        "id": 175,
         "question": "Variables declared within a function are termed as ______ variables for that function.",
         "options": [
             "Global",
@@ -1925,7 +1925,7 @@
         "answer": "Local"
     },
     {
-        "id": 404,
+        "id": 176,
         "question": "_____ in PHP help the user to arrive at a decision based on certain conditions.",
         "options": [
             "Conditional Statements",
@@ -1936,7 +1936,7 @@
         "answer": "Conditional Statements"
     },
     {
-        "id": 404,
+        "id": 177,
         "question": "______ in PHP are used to repeat the same block of code until a specific condition is met.",
         "options": [
             "Conditionals",
@@ -1947,7 +1947,7 @@
         "answer": "Loops"
     },
     {
-        "id": 404,
+        "id": 178,
         "question": "What is used to get data from the users and pass it to the Web server for processing?",
         "options": [
             "Cookies",
@@ -1958,7 +1958,7 @@
         "answer": "Form"
     },
     {
-        "id": 404,
+        "id": 179,
         "question": "What are the methods by which the data can be submitted to the server for processing?",
         "options": [
             "Post only",
@@ -1969,7 +1969,7 @@
         "answer": "PHP POST Method, PHP GET Method"
     },
     {
-        "id": 404,
+        "id": 180,
         "question": "A ____ is a self-contained program segment that carries out a specific, well-defined task and can be invoked by users, multiple times as per their requirement.",
         "options": [
             "PHP Function",
@@ -1980,7 +1980,7 @@
         "answer": "PHP Function"
     },
     {
-        "id": 404,
+        "id": 181,
         "question": "Which function determines the first instance of a string within another string?",
         "options": [
             "strpos()",
@@ -1991,7 +1991,7 @@
         "answer": "strpos()"
     },
     {
-        "id": 404,
+        "id": 182,
         "question": "Which of the following functions sorts the element values in descending alphabetic order in an array?",
         "options": [
             "sort()",
@@ -2002,7 +2002,7 @@
         "answer": "rsort()"
     },
     {
-        "id": 404,
+        "id": 183,
         "question": "What refers to the classification of data based on its attributes?",
         "options": [
             "Variables",
@@ -2013,7 +2013,7 @@
         "answer": "Data Types"
     },
     {
-        "id": 404,
+        "id": 184,
         "question": "Which data type comprises a whole number?",
         "options": [
             "Float",
@@ -2024,7 +2024,7 @@
         "answer": "Integer"
     },
     {
-        "id": 404,
+        "id": 185,
         "question": "Which of these are a few benefits of using functions in PHP?",
         "options": [
             "Complicated Code",
@@ -2035,7 +2035,7 @@
         "answer": "Reusable Code, Minimal Code, Clarity of Code"
     },
     {
-        "id": 404,
+        "id": 186,
         "question": "Which PHP function accepts a variable name as an argument and displays the argument details passed to it?",
         "options": [
             "print_r()",
@@ -2046,7 +2046,7 @@
         "answer": "var_dump()"
     },
     {
-        "id": 404,
+        "id": 187,
         "question": "Why do Websites use cookies?",
         "options": [
             "To improve database speed",
@@ -2057,7 +2057,7 @@
         "answer": "To determine customized Web page settings for a user"
     },
     {
-        "id": 404,
+        "id": 188,
         "question": "Which function is not only used to create a cookie, but can be used to modify it as well?",
         "options": [
             "setcookie()",
@@ -2068,7 +2068,7 @@
         "answer": "setcookie()"
     },
     {
-        "id": 404,
+        "id": 189,
         "question": "Which of the following are the rules that must be followed while creating variables in PHP?",
         "options": [
             "Can start with numbers",
@@ -2079,7 +2079,7 @@
         "answer": "Start with $, no spaces, can contain underscores"
     },
     {
-        "id": 404,
+        "id": 190,
         "question": "What is the validation rule for the 'Name' field that can be applied for a form?",
         "options": [
             "Must not exceed 100 characters",
@@ -2090,7 +2090,7 @@
         "answer": "Must only contain letters and whitespace"
     },
     {
-        "id": 404,
+        "id": 191,
         "question": "Which function of PHP breaks an array into smaller chunks of arrays?",
         "options": [
             "array_split()",
@@ -2101,7 +2101,7 @@
         "answer": "array_chunk()"
     },
     {
-        "id": 404,
+        "id": 192,
         "question": "In which year was PHP version 8.0 released?",
         "options": [
             "2018",
@@ -2112,7 +2112,7 @@
         "answer": "2020"
     },
     {
-        "id": 404,
+        "id": 193,
         "question": "Which PHP build is for 32-bits systems?",
         "options": [
             "x86",
@@ -2123,7 +2123,7 @@
         "answer": "x86"
     },
     {
-        "id": 404,
+        "id": 194,
         "question": "What is the easiest technique to utilize while setting up PHP if a user uses Internet Information Services (IIS)?",
         "options": [
             "Manual setup",
@@ -2134,7 +2134,7 @@
         "answer": "Web Platform Installer (Web PI)"
     },
     {
-        "id": 404,
+        "id": 195,
         "question": "OOP has certain keywords called ______ that decide the accessibility for various class methods, variables, and other member methods.",
         "options": [
             "Access modifiers",
@@ -2145,7 +2145,7 @@
         "answer": "Access modifiers"
     },
     {
-        "id": 404,
+        "id": 196,
         "question": "Which important principle in OOP enables a class to use methods and properties of other classes?",
         "options": [
             "Encapsulation",
@@ -2156,7 +2156,7 @@
         "answer": "Inheritance"
     },
     {
-        "id": 404,
+        "id": 197,
         "question": "PHP provides ______ function to access the value stored in the cookies.",
         "options": [
             "get_cookie()",
@@ -2167,7 +2167,7 @@
         "answer": "$_COOKIE"
     },
     {
-        "id": 404,
+        "id": 198,
         "question": "What refers to the classification of data based on its attributes?",
         "options": [
             "Data Codes",
@@ -2178,7 +2178,7 @@
         "answer": "Data Types"
     },
     {
-        "id": 404,
+        "id": 199,
         "question": "Which data type comprises a whole number?",
         "options": [
             "Float",
@@ -2189,7 +2189,7 @@
         "answer": "Integer"
     },
     {
-        "id": 404,
+        "id": 200,
         "question": "What are used for storing data such as numeric and character values, strings, and memory addresses at runtime?",
         "options": [
             "Variables",
@@ -2200,7 +2200,7 @@
         "answer": "Variables"
     },
     {
-        "id": 404,
+        "id": 201,
         "question": "Variables declared within a function are termed as _______ function.variables for that function",
         "options": [
             "Set",
@@ -2211,7 +2211,7 @@
         "answer": "Local"
     },
     {
-        "id": 404,
+        "id": 202,
         "question": "PHP has no support for Unicode, as it only supports a _______-character set.",
         "options": [
             "248",
@@ -2222,7 +2222,7 @@
         "answer": "256"
     },
     {
-        "id": 404,
+        "id": 203,
         "question": "What are named and indexed collections of other values?",
         "options": [
             "Boolean",
@@ -2233,7 +2233,7 @@
         "answer": "Arrays"
     },
     {
-        "id": 404,
+        "id": 204,
         "question": "Multiple parameters in a function are separated by a _______",
         "options": [
             "Hashtag (#)",
@@ -2244,7 +2244,7 @@
         "answer": "Comma (,)"
     },
     {
-        "id": 404,
+        "id": 205,
         "question": "Which of these Escape Sequences in PHP is replaced by the carriage-return character?",
         "options": [
             "\\n",
@@ -2255,7 +2255,7 @@
         "answer": "\\r"
     },
     {
-        "id": 404,
+        "id": 206,
         "question": "Which of these are the functions supported in PHP, to check if the type of a variable is an integer?",
         "options": [
             "is_int()",
@@ -2266,7 +2266,7 @@
         "answer": "is_int()"
     },
     {
-        "id": 404,
+        "id": 207,
         "question": "Which of the following are the types of loops in PHP?",
         "options": [
             "while",
@@ -2277,7 +2277,7 @@
         "answer": "while"
     },
     {
-        "id": 404,
+        "id": 208,
         "question": "Which conditional statement selects one of many code blocks to be executed?",
         "options": [
             "if",
@@ -2288,7 +2288,7 @@
         "answer": "Switch"
     },
     {
-        "id": 404,
+        "id": 209,
         "question": "Which of the following operators is used to compare operands for equality as well as same data type in PHP?",
         "options": [
             "==",
@@ -2299,7 +2299,7 @@
         "answer": "==="
     },
     {
-        "id": 404,
+        "id": 210,
         "question": "In which year was PHP version 8.0 released?",
         "options": [
             "2015",
@@ -2310,7 +2310,7 @@
         "answer": "2020"
     },
     {
-        "id": 404,
+        "id": 211,
         "question": "Which PHP build is for 32-bits systems?",
         "options": [
             "Thread-Safe (TS) PHP build",
@@ -2321,7 +2321,7 @@
         "answer": "x86"
     },
     {
-        "id": 404,
+        "id": 212,
         "question": "What is the easiest technique to utilize while setting up PHP if a user uses Internet Information Services (IIS)?",
         "options": [
             "Web Platform Installer (Web PI)",
@@ -2332,7 +2332,7 @@
         "answer": "Web Platform Installer (Web PI)"
     },
     {
-        "id": 404,
+        "id": 213,
         "question": "What is the purpose of the optional chaining (?) operator in JavaScript?",
         "options": [
             "To assign default values when a variable is falsy",
@@ -2343,7 +2343,7 @@
         "answer": "To safely access nested properties without causing errors"
     },
     {
-        "id": 404,
+        "id": 214,
         "question": "Which JavaScript method converts a Map into a plain object?",
         "options": [
             "Object.toMap()",
@@ -2354,7 +2354,7 @@
         "answer": "Object.fromEntries()"
     },
     {
-        "id": 404,
+        "id": 215,
         "question": "What is the default depth for flattening an array using Array.flat()?",
         "options": [
             "0",
@@ -2365,7 +2365,7 @@
         "answer": "1"
     },
     {
-        "id": 404,
+        "id": 216,
         "question": "What role does the call stack play in JavaScript's event loop?",
         "options": [
             "Handles background API requests",
@@ -2376,7 +2376,7 @@
         "answer": "Stores function calls in execution order"
     },
     {
-        "id": 404,
+        "id": 217,
         "question": "Which JavaScript feature allows executing tasks asynchronously without blocking the main thread?",
         "options": [
             "Promises",
@@ -2387,7 +2387,7 @@
         "answer": "All of the above"
     },
     {
-        "id": 404,
+        "id": 218,
         "question": "What are the advantages of using private fields in JavaScript classes?",
         "options": [
             "They enable dynamic imports in JavaScript",
@@ -2398,7 +2398,7 @@
         "answer": "They prevent external code from modifying class properties directly"
     },
     {
-        "id": 404,
+        "id": 219,
         "question": "How does CommonJS differ from ES Modules in JavaScript?",
         "options": [
             "CommonJS uses require(), while ES Modules use import",
@@ -2409,7 +2409,7 @@
         "answer": "CommonJS uses require(), while ES Modules use import"
     },
     {
-        "id": 404,
+        "id": 220,
         "question": "What does the Object.fromEntries() method do in JavaScript?",
         "options": [
             "Converts an object into a Map",
@@ -2420,7 +2420,7 @@
         "answer": "Takes an iterable of key-value pairs and returns a new object"
     },
     {
-        "id": 404,
+        "id": 221,
         "question": "How does the ternary operator improve JavaScript code readability?",
         "options": [
             "By reducing if-else blocks into a single line",
@@ -2431,7 +2431,7 @@
         "answer": "By reducing if-else blocks into a single line"
     },
     {
-        "id": 404,
+        "id": 222,
         "question": "Why is modularization important in large JavaScript applications?",
         "options": [
             "It increases execution speed",
@@ -2442,7 +2442,7 @@
         "answer": "It helps separate concerns and improve maintainability"
     },
     {
-        "id": 404,
+        "id": 223,
         "question": "filter() method is used for _____, _____, and _____.",
         "options": [
             "Enabling data manipulation and transformation",
@@ -2453,7 +2453,7 @@
         "answer": "Selecting users whose active property is true"
     },
     {
-        "id": 404,
+        "id": 224,
         "question": "In an API response, which JavaScript feature ensures missing values are handled gracefully?",
         "options": [
             "switch statements",
@@ -2464,7 +2464,7 @@
         "answer": "Optional Chaining and Nullish Coalescing"
     },
     {
-        "id": 404,
+        "id": 225,
         "question": "What keyword is used to define a class in JavaScript?",
         "options": [
             "function",
@@ -2475,7 +2475,7 @@
         "answer": "class"
     },
     {
-        "id": 404,
+        "id": 226,
         "question": "In a switch statement, what happens if the break statement is omitted from a case block?",
         "options": [
             "The program exits the switch statement immediately",
@@ -2486,7 +2486,7 @@
         "answer": "The next case executes regardless of match"
     },
     {
-        "id": 404,
+        "id": 227,
         "question": "What does the test() method return when a regular expression finds a match?",
         "options": [
             "A boolean value",
@@ -2497,7 +2497,7 @@
         "answer": "A boolean value"
     },
     {
-        "id": 404,
+        "id": 228,
         "question": "Which symbol in a regular expression is used to match any single character except a newline?",
         "options": [
             "*",
@@ -2508,7 +2508,7 @@
         "answer": "."
     },
     {
-        "id": 404,
+        "id": 229,
         "question": "What is the purpose of the getter method in JavaScript classes?",
         "options": [
             "Provides direct write access to properties",
@@ -2519,7 +2519,7 @@
         "answer": "Retrieves the value of a property without calling it like a function"
     },
     {
-        "id": 404,
+        "id": 230,
         "question": "How does extends support inheritance in JavaScript classes?",
         "options": [
             "It allows a class to inherit properties and methods from another class",
@@ -2530,7 +2530,7 @@
         "answer": "It allows a class to inherit properties and methods from another class"
     },
     {
-        "id": 404,
+        "id": 231,
         "question": "Which JavaScript feature allows quick extraction of values from objects and arrays?",
         "options": [
             "Optional Chaining",
@@ -2541,7 +2541,7 @@
         "answer": "Destructuring"
     },
     {
-        "id": 404,
+        "id": 232,
         "question": "How do static methods differ from regular class methods in JavaScript?",
         "options": [
             "They can be accessed without creating an instance of the class",
@@ -2552,7 +2552,7 @@
         "answer": "They can be accessed without creating an instance of the class"
     },
     {
-        "id": 404,
+        "id": 233,
         "question": "Which of the following statements are true with respect to dynamic import improving performance in JavaScript applications?",
         "options": [
             "By loading JavaScript modules only when required",
@@ -2563,7 +2563,7 @@
         "answer": "By loading JavaScript modules only when required"
     },
     {
-        "id": 404,
+        "id": 234,
         "question": "What problems do circular dependencies cause in JavaScript modules?",
         "options": [
             "They create infinite loops and initialization issues",
@@ -2574,7 +2574,7 @@
         "answer": "They create infinite loops and initialization issues"
     },
     {
-        "id": 404,
+        "id": 235,
         "question": "Why is modularization important in large JavaScript applications?",
         "options": [
             "It helps separate concerns and improve maintainability",
@@ -2585,7 +2585,7 @@
         "answer": "It helps separate concerns and improve maintainability"
     },
     {
-        "id": 404,
+        "id": 236,
         "question": "What is the use of SELECT command in MySQL?",
         "options": [
             "To insert the records into the table",
@@ -2596,7 +2596,7 @@
         "answer": "To fetch or retrieve records from tables"
     },
     {
-        "id": 404,
+        "id": 237,
         "question": "The ______ is used to select all the rows from the table.",
         "options": [
             "Dollar symbol",
@@ -2607,7 +2607,7 @@
         "answer": "Asterisk symbol"
     },
     {
-        "id": 404,
+        "id": 238,
         "question": "Which keyword is used to retrieve records by checking the possible values from a given column?",
         "options": [
             "CHECK",
@@ -2618,7 +2618,7 @@
         "answer": "IN"
     },
     {
-        "id": 404,
+        "id": 239,
         "question": "A ______ clause with a single expression fetches unique values from one column.",
         "options": [
             "BETWEEN",
@@ -2629,7 +2629,7 @@
         "answer": "DISTINCT"
     },
     {
-        "id": 404,
+        "id": 240,
         "question": "Which feature is used to combine and retrieve data from more than one table?",
         "options": [
             "MySQL JOIN",
@@ -2640,7 +2640,7 @@
         "answer": "MySQL JOIN"
     },
     {
-        "id": 404,
+        "id": 241,
         "question": "What does Dropping a database mean?",
         "options": [
             "Deleting database from the server",
@@ -2651,7 +2651,7 @@
         "answer": "Deleting database from the server"
     },
     {
-        "id": 404,
+        "id": 242,
         "question": "Which Integer data type is used to store numbers or numeric data?",
         "options": [
             "DATETIME",
@@ -2662,7 +2662,7 @@
         "answer": "BIGINT"
     },
     {
-        "id": 404,
+        "id": 243,
         "question": "Which of the following are common characteristics to determine data type?",
         "options": [
             "Type of value (fixed or variable) it represents",
@@ -2673,7 +2673,7 @@
         "answer": "All of these"
     },
     {
-        "id": 404,
+        "id": 244,
         "question": "Which query is used to displays results based on one or more conditions mentioned by the user?",
         "options": [
             "SELECT",
@@ -2684,7 +2684,7 @@
         "answer": "SELECT"
     },
     {
-        "id": 404,
+        "id": 245,
         "question": "What are the types of Set operators?",
         "options": [
             "Plus, Minus, Intersect",
@@ -2695,7 +2695,7 @@
         "answer": "Union, Union All, Minus"
     },
     {
-        "id": 404,
+        "id": 246,
         "question": "Which programming language commonly support working with XML data?",
         "options": [
             "Java",
@@ -2706,7 +2706,7 @@
         "answer": "Java"
     },
     {
-        "id": 404,
+        "id": 247,
         "question": "How are DTDs commonly created and maintained?",
         "options": [
             "Using specialized DTD editing software.",
@@ -2717,7 +2717,7 @@
         "answer": "Using basic text editors."
     },
     {
-        "id": 404,
+        "id": 248,
         "question": "Which schema language is still beneficial for straightforward XML documents and continues to be popular?",
         "options": [
             "DTD",
@@ -2728,7 +2728,7 @@
         "answer": "DTD"
     },
     {
-        "id": 404,
+        "id": 249,
         "question": "What does DTD stand for?",
         "options": [
             "Document Type Definition",
@@ -2739,7 +2739,7 @@
         "answer": "Document Type Definition"
     },
     {
-        "id": 404,
+        "id": 250,
         "question": "Which type of XML parser loads the complete XML document into memory?",
         "options": [
             "DOM-based XML parser",
@@ -2750,7 +2750,7 @@
         "answer": "DOM-based XML parser"
     },
     {
-        "id": 404,
+        "id": 251,
         "question": "In which applications is XML validation vital?",
         "options": [
             "Games and multimedia application",
@@ -2761,7 +2761,7 @@
         "answer": "Data integration, Web services, and configuration files"
     },
     {
-        "id": 404,
+        "id": 252,
         "question": "In an XML schema, what does the xs:sequence element define?",
         "options": [
             "The order of child elements.",
@@ -2772,7 +2772,7 @@
         "answer": "The order of child elements."
     },
     {
-        "id": 404,
+        "id": 253,
         "question": "What does the Document Prolog in an XML document typically contain?",
         "options": [
             "XML Declaration",
@@ -2783,7 +2783,7 @@
         "answer": "XML Declaration"
     },
     {
-        "id": 404,
+        "id": 254,
         "question": "When would it be appropriate to use Document Type Definition (DTD) instead of XML Schema (XSD)?",
         "options": [
             "For straightforward XML documents with simple structure.",
@@ -2794,7 +2794,7 @@
         "answer": "For straightforward XML documents with simple structure."
     },
     {
-        "id": 404,
+        "id": 255,
         "question": "Which of the following services are required to be started in the XAMPP Control Panel to begin working with WordPress?",
         "options": [
             "Apache and PHP",
@@ -2805,7 +2805,7 @@
         "answer": "Apache and MySQL"
     },
     {
-        "id": 404,
+        "id": 256,
         "question": "Which of the following roles allows the user to manage and publish posts, including those of other users?",
         "options": [
             "Administrator",
@@ -2816,7 +2816,7 @@
         "answer": "Editor"
     },
     {
-        "id": 404,
+        "id": 257,
         "question": "Which of the following command is used to install Apache as a service after downloading it on Windows?",
         "options": [
             "httpd.exe -k install",
@@ -2827,7 +2827,7 @@
         "answer": "httpd.exe -k install"
     },
     {
-        "id": 404,
+        "id": 258,
         "question": "Why would a business with complex content requirements prefer Drupal over the more popular WordPress?",
         "options": [
             "Drupal has fewer security updates",
@@ -2838,7 +2838,7 @@
         "answer": "Drupal provides better scalability and content structuring"
     },
     {
-        "id": 404,
+        "id": 259,
         "question": "In a CMS, which user role typically has the highest level of access and control over the system?",
         "options": [
             "Editor",
@@ -2849,7 +2849,7 @@
         "answer": "Admin"
     },
     {
-        "id": 404,
+        "id": 260,
         "question": "Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?",
         "options": [
             "Due to high server resource consumption for minimal content",
@@ -2860,7 +2860,7 @@
         "answer": "Due to steeper learning curve for non-developers"
     },
     {
-        "id": 404,
+        "id": 261,
         "question": "How does the constructor method help in JavaScript classes?",
         "options": [
             "It defines a static method",
@@ -2871,7 +2871,7 @@
         "answer": "It initializes object properties when a class instance is created"
     },
     {
-        "id": 404,
+        "id": 262,
         "question": "Which of the following best describes the role of 'this' in a JavaScript class?",
         "options": [
             "Refers to the current instance of a class",
@@ -2882,7 +2882,7 @@
         "answer": "Refers to the current instance of a class"
     },
     {
-        "id": 404,
+        "id": 263,
         "question": "What is the purpose of the getter method in JavaScript classes?",
         "options": [
             "Provides direct write access to properties",
@@ -2893,7 +2893,7 @@
         "answer": "Retrieves the value of a property without calling it similar to a function"
     },
     {
-        "id": 404,
+        "id": 264,
         "question": "How does extends support inheritance in JavaScript classes?",
         "options": [
             "It allows a class to inherit properties and methods from another class",
@@ -2904,7 +2904,7 @@
         "answer": "It allows a class to inherit properties and methods from another class"
     },
     {
-        "id": 404,
+        "id": 265,
         "question": "Which JavaScript feature allows quick extraction of values from objects and arrays?",
         "options": [
             "Optional Chaining",
@@ -2915,7 +2915,7 @@
         "answer": "Destructuring"
     },
     {
-        "id": 404,
+        "id": 266,
         "question": "What does the test() method return when a regular expression finds a match?",
         "options": [
             "A boolean value",
@@ -2926,7 +2926,7 @@
         "answer": "A boolean value"
     },
     {
-        "id": 404,
+        "id": 267,
         "question": "Which XML database type combines features of both relational databases and native XML databases?",
         "options": [
             "Native XML database",
@@ -2937,7 +2937,7 @@
         "answer": "XML-enabled database"
     },
     {
-        "id": 404,
+        "id": 268,
         "question": "Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?",
         "options": [
             "XML Parser",
@@ -2948,7 +2948,7 @@
         "answer": "XML Parser"
     },
     {
-        "id": 404,
+        "id": 269,
         "question": "How is an XML document represented in memory using XML DOM?",
         "options": [
             "As a list of elements",
@@ -2959,7 +2959,7 @@
         "answer": "As a tree-like structure"
     },
     {
-        "id": 404,
+        "id": 270,
         "question": "Which XML parser types are suitable for processing large XML documents?",
         "options": [
             "DOM-based XML parser",
@@ -2970,7 +2970,7 @@
         "answer": "SAX parser"
     },
     {
-        "id": 404,
+        "id": 271,
         "question": "Which type of nodes are defined by XPath? (Select all that apply)",
         "options": [
             "Element nodes",
@@ -2981,7 +2981,7 @@
         "answer": "Element nodes"
     },
     {
-        "id": 404,
+        "id": 272,
         "question": "What is the file extension for XML files?",
         "options": [
             ".html",
@@ -2992,7 +2992,7 @@
         "answer": ".xml"
     },
     {
-        "id": 404,
+        "id": 273,
         "question": "Which programming language commonly supports working with XML data?",
         "options": [
             "Java",
@@ -3003,7 +3003,7 @@
         "answer": "Ruby"
     },
     {
-        "id": 404,
+        "id": 274,
         "question": "Which database system provides a Graphical User Interface (GUI) for executing XQuery queries?",
         "options": [
             "Oracle Database",
@@ -3014,7 +3014,7 @@
         "answer": "BaseX"
     },
     {
-        "id": 404,
+        "id": 275,
         "question": "Which schema language remains popular for straightforward XML documents?",
         "options": [
             "DTD",
@@ -3025,7 +3025,7 @@
         "answer": "XSD"
     },
     {
-        "id": 404,
+        "id": 276,
         "question": "What does DTD stand for?",
         "options": [
             "Document Type Definition",
@@ -3036,7 +3036,7 @@
         "answer": "Document Type Definition"
     },
     {
-        "id": 404,
+        "id": 277,
         "question": "Which parser loads complete XML documents into memory?",
         "options": [
             "DOM-based",
@@ -3047,7 +3047,7 @@
         "answer": "DOM-based"
     },
     {
-        "id": 404,
+        "id": 278,
         "question": "What is the top-level XML DOM node?",
         "options": [
             "Root element node",
@@ -3058,7 +3058,7 @@
         "answer": "Root element node"
     },
     {
-        "id": 404,
+        "id": 279,
         "question": "Which of the following databases are considered NoSQL databases?",
         "options": [
             "MySQL",
@@ -3069,7 +3069,7 @@
         "answer": "MongoDB"
     },
     {
-        "id": 404,
+        "id": 280,
         "question": "How do static methods differ from regular class methods in JavaScript?",
         "options": [
             "They can be accessed without creating an instance of the class",
@@ -3080,7 +3080,7 @@
         "answer": "They can be accessed without creating an instance of the class"
     },
     {
-        "id": 404,
+        "id": 281,
         "question": "Which of the following statements are true with respect to dynamic import improving performance in JavaScript applications?",
         "options": [
             "By loading JavaScript modules only when required",
@@ -3091,7 +3091,7 @@
         "answer": "By loading JavaScript modules only when required"
     },
     {
-        "id": 404,
+        "id": 282,
         "question": "What problems do circular dependencies cause in JavaScript modules?",
         "options": [
             "They create infinite loops and initialization issues",
@@ -3102,7 +3102,7 @@
         "answer": "They create infinite loops and initialization issues"
     },
     {
-        "id": 404,
+        "id": 283,
         "question": "Why is modularization important in large JavaScript applications?",
         "options": [
             "It helps separate concerns and improve maintainability",
@@ -3113,7 +3113,7 @@
         "answer": "It helps separate concerns and improve maintainability"
     },
     {
-        "id": 404,
+        "id": 284,
         "question": "What is the use of SELECT command in MySQL?",
         "options": [
             "To insert the records into the table",
@@ -3124,7 +3124,7 @@
         "answer": "To fetch or retrieve records from tables"
     },
     {
-        "id": 404,
+        "id": 285,
         "question": "The ______ is used to select all the rows from the table.",
         "options": [
             "Dollar symbol",
@@ -3135,7 +3135,7 @@
         "answer": "Asterisk symbol"
     },
     {
-        "id": 404,
+        "id": 286,
         "question": "Which keyword is used to retrieve records by checking the possible values from a given column?",
         "options": [
             "CHECK",
@@ -3146,7 +3146,7 @@
         "answer": "IN"
     },
     {
-        "id": 404,
+        "id": 287,
         "question": "A ______ clause with a single expression fetches unique values from one column.",
         "options": [
             "BETWEEN",
@@ -3157,7 +3157,7 @@
         "answer": "DISTINCT"
     },
     {
-        "id": 404,
+        "id": 288,
         "question": "Which feature is used to combine and retrieve data from more than one table?",
         "options": [
             "MySQL JOIN",
@@ -3168,7 +3168,7 @@
         "answer": "MySQL JOIN"
     },
     {
-        "id": 404,
+        "id": 289,
         "question": "What does Dropping a database mean?",
         "options": [
             "Deleting database from the server",
@@ -3179,7 +3179,7 @@
         "answer": "Deleting database from the server"
     },
     {
-        "id": 404,
+        "id": 290,
         "question": "Which Integer data type is used to store numbers or numeric data?",
         "options": [
             "DATETIME",
@@ -3190,7 +3190,7 @@
         "answer": "BIGINT"
     },
     {
-        "id": 404,
+        "id": 291,
         "question": "Which of the following are common characteristics to determine data type?",
         "options": [
             "Type of value (fixed or variable) it represents",
@@ -3201,7 +3201,7 @@
         "answer": "All of these"
     },
     {
-        "id": 404,
+        "id": 292,
         "question": "Which query is used to displays results based on one or more conditions mentioned by the user?",
         "options": [
             "SELECT",
@@ -3212,7 +3212,7 @@
         "answer": "SELECT"
     },
     {
-        "id": 404,
+        "id": 293,
         "question": "What are the types of Set operators?",
         "options": [
             "Plus, Minus, Intersect",
@@ -3223,7 +3223,7 @@
         "answer": "Union, Union All, Minus"
     },
     {
-        "id": 404,
+        "id": 294,
         "question": "Which programming language commonly support working with XML data?",
         "options": [
             "Java",
@@ -3234,7 +3234,7 @@
         "answer": "Java"
     },
     {
-        "id": 404,
+        "id": 295,
         "question": "How are DTDs commonly created and maintained?",
         "options": [
             "Using specialized DTD editing software.",
@@ -3245,7 +3245,7 @@
         "answer": "Using basic text editors."
     },
     {
-        "id": 404,
+        "id": 296,
         "question": "Which schema language is still beneficial for straightforward XML documents and continues to be popular?",
         "options": [
             "DTD",
@@ -3256,7 +3256,7 @@
         "answer": "DTD"
     },
     {
-        "id": 404,
+        "id": 297,
         "question": "What does DTD stand for?",
         "options": [
             "Document Type Definition",
@@ -3267,7 +3267,7 @@
         "answer": "Document Type Definition"
     },
     {
-        "id": 404,
+        "id": 298,
         "question": "Which type of XML parser loads the complete XML document into memory?",
         "options": [
             "DOM-based XML parser",
@@ -3278,7 +3278,7 @@
         "answer": "DOM-based XML parser"
     },
     {
-        "id": 404,
+        "id": 299,
         "question": "In which applications is XML validation vital?",
         "options": [
             "Games and multimedia application",
@@ -3289,7 +3289,7 @@
         "answer": "Data integration, Web services, and configuration files"
     },
     {
-        "id": 404,
+        "id": 300,
         "question": "In an XML schema, what does the xs:sequence element define?",
         "options": [
             "The order of child elements.",
@@ -3300,7 +3300,7 @@
         "answer": "The order of child elements."
     },
     {
-        "id": 404,
+        "id": 301,
         "question": "What does the Document Prolog in an XML document typically contain?",
         "options": [
             "XML Declaration",
@@ -3311,7 +3311,7 @@
         "answer": "XML Declaration"
     },
     {
-        "id": 404,
+        "id": 302,
         "question": "When would it be appropriate to use Document Type Definition (DTD) instead of XML Schema (XSD)?",
         "options": [
             "For straightforward XML documents with simple structure.",
@@ -3322,7 +3322,7 @@
         "answer": "For straightforward XML documents with simple structure."
     },
     {
-        "id": 404,
+        "id": 303,
         "question": "Which of the following services are required to be started in the XAMPP Control Panel to begin working with WordPress?",
         "options": [
             "Apache and PHP",
@@ -3333,7 +3333,7 @@
         "answer": "Apache and MySQL"
     },
     {
-        "id": 404,
+        "id": 304,
         "question": "Which of the following roles allows the user to manage and publish posts, including those of other users?",
         "options": [
             "Administrator",
@@ -3344,7 +3344,7 @@
         "answer": "Editor"
     },
     {
-        "id": 404,
+        "id": 305,
         "question": "Which of the following command is used to install Apache as a service after downloading it on Windows?",
         "options": [
             "httpd.exe -k install",
@@ -3355,7 +3355,7 @@
         "answer": "httpd.exe -k install"
     },
     {
-        "id": 404,
+        "id": 306,
         "question": "Why would a business with complex content requirements prefer Drupal over the more popular WordPress?",
         "options": [
             "Drupal has fewer security updates",
@@ -3366,7 +3366,7 @@
         "answer": "Drupal provides better scalability and content structuring"
     },
     {
-        "id": 404,
+        "id": 307,
         "question": "In a CMS, which user role typically has the highest level of access and control over the system?",
         "options": [
             "Editor",
@@ -3377,7 +3377,7 @@
         "answer": "Admin"
     },
     {
-        "id": 404,
+        "id": 308,
         "question": "Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?",
         "options": [
             "Due to high server resource consumption for minimal content",
@@ -3388,7 +3388,7 @@
         "answer": "Due to steeper learning curve for non-developers"
     },
     {
-        "id": 404,
+        "id": 309,
         "question": "How does the constructor method help in JavaScript classes?",
         "options": [
             "It defines a static method",
@@ -3399,7 +3399,7 @@
         "answer": "It initializes object properties when a class instance is created"
     },
     {
-        "id": 404,
+        "id": 310,
         "question": "Which of the following best describes the role of 'this' in a JavaScript class?",
         "options": [
             "Refers to the current instance of a class",
@@ -3410,7 +3410,7 @@
         "answer": "Refers to the current instance of a class"
     },
     {
-        "id": 404,
+        "id": 311,
         "question": "What is the purpose of the getter method in JavaScript classes?",
         "options": [
             "Provides direct write access to properties",
@@ -3421,7 +3421,7 @@
         "answer": "Retrieves the value of a property without calling it similar to a function"
     },
     {
-        "id": 404,
+        "id": 312,
         "question": "How does extends support inheritance in JavaScript classes?",
         "options": [
             "It allows a class to inherit properties and methods from another class",
@@ -3432,7 +3432,7 @@
         "answer": "It allows a class to inherit properties and methods from another class"
     },
     {
-        "id": 404,
+        "id": 313,
         "question": "Which JavaScript feature allows quick extraction of values from objects and arrays?",
         "options": [
             "Optional Chaining",
@@ -3443,7 +3443,7 @@
         "answer": "Destructuring"
     },
     {
-        "id": 404,
+        "id": 314,
         "question": "What does the test() method return when a regular expression finds a match?",
         "options": [
             "A boolean value",
@@ -3453,4 +3453,4 @@
         ],
         "answer": "A boolean value"
     }
-]
+];
