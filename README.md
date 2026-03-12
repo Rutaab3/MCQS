@@ -12,7 +12,7 @@ A professional, high-fidelity quiz application built with **Google's Material De
 - **📱 Mobile Optimized**: Fully responsive layout with a stacked navbar and compact UI for small screens.
 - **⚡ Interactive Feedback**: High-fidelity ripple effects and smooth state transitions for quiz options.
 - **🛠️ Quiz Management**:
-  - 165+ high-quality questions preserved.
+  - 299+ high-quality questions preserved.
   - Pagination (10, 20, 30 questions per page).
   - Real-time score tracking and progress monitoring.
   - Integrated answer visibility toggle.
