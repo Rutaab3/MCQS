@@ -3,7 +3,7 @@
 A professional, high-fidelity quiz application built with **Google's Material Design 3 (Material You)**. Designed to provide a native-feeling experience similar to Google Gemini and Google Search.
 
 ## 📺 Feature Demonstration
-![Application Feature Demo](demo.webp)
+![Application Feature Demo](demo.webp) 
 
 ## ✨ Features
 
