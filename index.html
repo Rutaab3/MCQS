@@ -5,12 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Semester Exam Prep — Quiz</title>
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;500;700&family=Roboto:wght@300;400;500;700&family=Google+Sans+Mono&display=swap"
-    rel="stylesheet">
-  <!-- Material Symbols Rounded -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
+  <!-- Localized Libraries -->
+  <link rel="stylesheet" href="libraries/css/google-fonts.css">
+  <link rel="stylesheet" href="libraries/css/material-symbols.css">
   <link rel="stylesheet" href="cascading style sheet/app.css">
 </head>
 
@@ -76,6 +73,15 @@
 
   <script src="javascript/data.js"></script>
   <script src="javascript/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('Service Worker registered', reg))
+          .catch(err => console.error('Service Worker registration failed', err));
+      });
+    }
+  </script>
 </body>
 
 </html>

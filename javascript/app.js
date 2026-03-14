@@ -7,12 +7,32 @@
       console.log('Quiz data loaded:', quizData.length, 'items');
     }
     
+    const STORAGE_KEY = 'exam-prep-state';
+
     let state = {
       showAnswers: false,
       userAnswers: {},
       limit: 'all',
       currentPage: 1
     };
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadState() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try {
+          const parsed = JSON.parse(saved);
+          state = { ...state, ...parsed };
+        } catch (e) {
+          console.error('Failed to parse saved state:', e);
+        }
+      }
+    }
+
+    loadState();
 
     function renderQuiz() {
       const container = document.getElementById('quiz-container');
@@ -72,6 +92,7 @@
 
       container.innerHTML = html;
       updateStats();
+      saveState();
     }
 
     window.changePage = function (delta) {
@@ -114,6 +135,7 @@
       if (state.showAnswers) return;
       state.userAnswers[qId] = option;
       renderQuiz();
+      saveState();
     }
 
     function updateStats() {
