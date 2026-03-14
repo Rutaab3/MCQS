@@ -1,4 +1,4 @@
-window.quizData = [
+[
     {
         "id": 1,
         "question": "Which theme is the first to fully adopt the block-based approach of the WordPress Website Editor?",

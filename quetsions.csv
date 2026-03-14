@@ -1,0 +1,78 @@
+| Question Text                                                                                                                                                          | Duplicate IDs        |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
+| Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?                                         | 2, 52, 260, 268, 308 |
+| Which of the following roles allows the user to manage and publish posts, including those of other users?                                                              | 5, 48, 256, 304      |
+| Which of the following command is used to install Apache as a service after downloading it on Windows?                                                                 | 6, 49, 257, 305      |
+| Why would a business with complex content requirements prefer Drupal over the more popular WordPress?                                                                  | 13, 50, 258, 306     |
+| In a CMS, which user role typically has the highest level of access and control over the system?                                                                       | 14, 51, 259, 307     |
+| Which of the following services are required to be started in the XAMPP Control Panel to begin working with WordPress?                                                 | 17, 47, 255, 303     |
+| How do static methods differ from regular class methods in JavaScript?                                                                                                 | 23, 232, 280         |
+| Which of the following statements are true with respect to dynamic import improving performance in JavaScript applications?                                            | 24, 233, 281         |
+| What problems do circular dependencies cause in JavaScript modules?                                                                                                    | 25, 234, 282         |
+| Why is modularization important in large JavaScript applications?                                                                                                      | 26, 222, 235, 283    |
+| Which DDL command is used to restructure the database, table, and database objects?                                                                                    | 27, 164              |
+| What is the use of SELECT command in MySQL?                                                                                                                            | 28, 165, 236, 284    |
+| The \_\_\_\_\_\_ is used to select all the rows from the table.                                                                                                        | 29, 237, 285         |
+| Which keyword is used to retrieve records by checking the possible values from a given column?                                                                         | 30, 167, 238, 286    |
+| Which feature is used to combine and retrieve data from more than one table?                                                                                           | 32, 158, 240, 288    |
+| What does Dropping a database mean?                                                                                                                                    | 33, 159, 241, 289    |
+| Which Integer data type is used to store numbers or numeric data?                                                                                                      | 34, 160, 242, 290    |
+| Which of the following are common characteristics to determine data type?                                                                                              | 35, 243, 291         |
+| Which query is used to displays results based on one or more conditions mentioned by the user?                                                                         | 36, 244, 292         |
+| What are the types of Set operators?                                                                                                                                   | 37, 162, 245, 293    |
+| Which programming language commonly support working with XML data?                                                                                                     | 38, 246, 294         |
+| How are DTDs commonly created and maintained?                                                                                                                          | 39, 247, 295         |
+| Which schema language is still beneficial for straightforward XML documents and continues to be popular?                                                               | 40, 248, 296         |
+| What does DTD stand for?                                                                                                                                               | 41, 249, 276, 297    |
+| Which type of XML parser loads the complete XML document into memory?                                                                                                  | 42, 250, 298         |
+| In which applications is XML validation vital?                                                                                                                         | 43, 251, 299         |
+| In an XML schema, what does the xs:sequence element define?                                                                                                            | 44, 252, 300         |
+| What does the Document Prolog in an XML document typically contain?                                                                                                    | 45, 253, 301         |
+| When would it be appropriate to use Document Type Definition (DTD) instead of XML Schema (XSD)?                                                                        | 46, 254, 302         |
+| How does the constructor method help in JavaScript classes?                                                                                                            | 53, 261, 309         |
+| Which of the following best describes the role of 'this' in a JavaScript class?                                                                                        | 54, 262, 310         |
+| What is the purpose of the getter method in JavaScript classes?                                                                                                        | 55, 229, 263, 311    |
+| How does extends support inheritance in JavaScript classes?                                                                                                            | 56, 230, 264, 312    |
+| Which JavaScript feature allows quick extraction of values from objects and arrays?                                                                                    | 57, 231, 265, 313    |
+| What does the test() method return when a regular expression finds a match?                                                                                            | 58, 227, 266, 314    |
+| help in organizing codes by grouping requests that handle the codes in a single route and class.                                                                       | 60, 88               |
+| A is preconfigured using a single line of artisan command.                                                                                                             | 61, 89               |
+| The Update operation is similar to the operation.                                                                                                                      | 62, 90               |
+| In key-value pairs, the value should contain validating keywords separated by the symbol.                                                                              | 63, 91               |
+| Which of the following validators validates if any value was passed for a column?                                                                                      | 64, 92               |
+| are required to use Composer and Homestead on Windows.                                                                                                                 | 65, 93               |
+| Which of the following commands will help to verify that Composer is installed on the computer?                                                                        | 66, 94               |
+| helps in implementing CRUD operations.                                                                                                                                 | 67, 95               |
+| refers to the concept of sending records in blocks.                                                                                                                    | 68, 96               |
+| A is a case where the attributes of a model are blindly updated.                                                                                                       | 69, 97               |
+| The basic contents of a Web application are written in the \_\_\_\_\_.                                                                                                 | 70, 98               |
+| The \_\_\_\_\_\_ array enables a user to update any value in the same database.                                                                                        | 71, 99               |
+| The \_\_\_\_\_\_ method uses the URI, two arguments, and the closure function that is executed in response to the URI.                                                 | 72, 100              |
+| Which of the following methods is used to retrieve a specific record?                                                                                                  | 73, 101              |
+| Which of the following BEST describes Chaining?                                                                                                                        | 74, 102              |
+| The \_\_\_\_\_\_ in Laravel helps in creating tables.                                                                                                                  | 76, 104              |
+| In Laravel convention, \_\_\_\_\_\_ are the preferred way to create records, not tables.                                                                               | 77, 105              |
+| acts as a version control system for a database that includes many tables.                                                                                             | 78, 106              |
+| The method is used to create a table.                                                                                                                                  | 79, 107              |
+| The Bootstrap CSS framework uses the \_\_\_\_\_\_ helper function.                                                                                                     | 80, 108              |
+| When creating a record, it is necessary to include the \_\_\_\_\_\_ keyword array to prevent any malicious attempt.                                                    | 81, 109              |
+| Which of the following directories includes the Views that will be used to display the final Web page as well as the un-compiled assets related to JavaScript and CSS? | 82, 110              |
+| Which of the following enables the user to add elements to the project that follow the Laravel convention?                                                             | 83, 111              |
+| The main reason to use the query builder over writing SQL code manually is because                                                                                     | 84, 112              |
+| Functions that are defined in the model and that replace a long chain with a simple one are called                                                                     | 85, 113              |
+| The feature in the MVC design pattern eliminates the need to create new files and multiple pages for a single application.                                             | 86, 114              |
+| Which of the following terms BEST describes the statement 'Codes can be independent or interchanged based on the requirement?                                          | 87, 115              |
+| \_\_\_\_\_ partitioning splits the table into multiple tables with only few columns from the original table.                                                           | 118, 151             |
+| \_\_\_\_\_ refers to the performance increase of any given system.                                                                                                     | 119, 152             |
+| What is the time taken for the database to respond to any query referred to as?                                                                                        | 120, 153             |
+| \_\_\_\_\_ in DBMS is the process of improving the performance of data storage resources.                                                                              | 121, 154             |
+| Which of these Escape Sequences in PHP is replaced by the carriage-return character?                                                                                   | 170, 205             |
+| What are named and indexed collections of other values?                                                                                                                | 171, 203             |
+| Which of these are the functions supported in PHP, to check if the type of a variable is an integer?                                                                   | 173, 206             |
+| What are used for storing data such as numeric and character values, strings, and memory addresses at runtime?                                                         | 174, 200             |
+| What refers to the classification of data based on its attributes?                                                                                                     | 183, 198             |
+| Which data type comprises a whole number?                                                                                                                              | 184, 199             |
+| In which year was PHP version 8.0 released?                                                                                                                            | 192, 210             |
+| Which PHP build is for 32-bits systems?                                                                                                                                | 193, 211             |
+| What is the easiest technique to utilize while setting up PHP if a user uses Internet Information Services (IIS)?                                                      | 194, 212             |
+| A \_\_\_\_\_\_ clause with a single expression fetches unique values from one column.                                                                                  | 239, 287             |
