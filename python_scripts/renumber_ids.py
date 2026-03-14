@@ -1,6 +1,6 @@
 import json
 
-file_path = r'c:\Users\Fahad\Downloads\Skycast\WeatherAPI\New folder\New folder\app.json'
+file_path = r'c:\Users\Fahad\Downloads\Skycast\WeatherAPI\New folder\New folder\data\app2.json'
 
 with open(file_path, 'r', encoding='utf-8') as f:
     data = json.load(f)
