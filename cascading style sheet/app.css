@@ -341,6 +341,7 @@
     select {
       appearance: none;
       background: var(--md-sys-color-surface);
+      color: var(--md-sys-color-on-surface);
       border: 1px solid var(--md-sys-color-outline-variant);
       border-radius: var(--md-sys-shape-extra-large);
       padding: 8px 36px 8px 16px;
