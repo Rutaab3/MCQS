@@ -1,3 +1,6 @@
+**Reason to use app2.json is that app.json has duplicates**
+
+
 | Question Text                                                                                                                                                          | Duplicate IDs        |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
 | Why can a highly scalable CMS such as Drupal be a less effective choice for a small business with simple content requirements?                                         | 2, 52, 260, 268, 308 |
