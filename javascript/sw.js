@@ -1,12 +1,12 @@
 const CACHE_NAME = 'exam-prep-v1';
 const ASSETS = [
-  './',
-  './index.html',
-  './cascading style sheet/app.css',
-  './javascript/app.js',
-  './javascript/data.js',
-  './libraries/css/google-fonts.css',
-  './libraries/css/material-symbols.css'
+  '../',
+  '../index.html',
+  '../cascading style sheet/app.css',
+  './app.js',
+  './data.js',
+  '../libraries/css/google-fonts.css',
+  '../libraries/css/material-symbols.css'
 ];
 
 // Add all font files dynamically or manually. 

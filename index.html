@@ -76,7 +76,9 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
+        // Registered with scope './' so it can control the whole project even from the javascript folder.
+        // Note: This may require a 'Service-Worker-Allowed: /' header on some servers.
+        navigator.serviceWorker.register('./javascript/sw.js', { scope: './' })
           .then(reg => console.log('Service Worker registered', reg))
           .catch(err => console.error('Service Worker registration failed', err));
       });
